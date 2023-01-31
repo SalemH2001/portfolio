@@ -23,9 +23,8 @@ const Skills = () => {
         }
     };
 
-    return (
-        <div style={{ width: "100%", maxWidth: "1600px", overflowX: "hidden" }}>
-            <section className="bg-primary text-white px-5 py-32" id="skills" ref={ref}>
+    return (       
+            <section className="bg-secondary text-white px-5 py-32" id="skills" ref={ref} style={{ width: "100%", maxWidth: "1600px", overflowX: "hidden" }}>
                 <h2 className="text-center text-3xl font-bold mb-4">Skills</h2>
                 <AnimatePresence>
                     {inView && (
@@ -74,7 +73,7 @@ const Skills = () => {
                     )}
                 </AnimatePresence>
             </section>
-        </div>
+        
     );
 };
 

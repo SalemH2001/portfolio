@@ -1,10 +1,6 @@
 import React from "react";
 import HeroImg from "../../assets/hero-img.png";
-import {
-  AiOutlineTwitter,
-  AiOutlineYoutube,
-  AiOutlineFacebook,
-} from "react-icons/ai";
+
 import { Link } from "react-scroll";
 
 
@@ -21,27 +17,6 @@ const Hero = () => {
           <p className="py-5">
             I am proficient in JavaScript, React.js, PHP, Laravel, Bootstrap, and Tailwind CSS
           </p>
-
-          <div className="flex py-5">
-            <a
-              href="https://twitter.com/CoderAmrin"
-              className="pr-4 inline-block text-accent hover:text-white"
-            >
-              <AiOutlineTwitter size={40} />
-            </a>
-            <a
-              href="https://www.youtube.com/@coderamrin"
-              className="pr-4 inline-block text-accent hover:text-white"
-            >
-              <AiOutlineYoutube size={40} />
-            </a>
-            <a
-              href="https://www.facebook.com/CoderAmrin/"
-              className="pr-4 inline-block text-accent hover:text-white"
-            >
-              <AiOutlineFacebook size={40} />
-            </a>
-          </div>
 
           <Link
             to="projects"
